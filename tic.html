@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container" style="max-width: 70%; max-height: 80%; margin:auto">
+
+<div class="alert alert-info">
+    <p class="card-title">Time to play Tic-Tac-Toe!</p>
+    <p class="card-subtitle">Current Turn:
+
+    <span id="currentTurn">X</span>
+
+    </p>
+</div>
+
+<div class="card">
+    <div class="card text-center border-info">
+        <table class="table-info">
+            <div class="gamecell">
+            <tr>
+                <td class="x" id="1">-</td>
+                <td class="x" id="2">-</td>
+                <td class="x" id="3">-</td>
+            </tr>
+            <tr>
+                <td id="4">-</td>
+                <td id="5">-</td>
+                <td id="6">-</td>
+            </tr>
+            <tr>
+                <td id="7">-</td>
+                <td id="8">-</td>
+                <td id="9">-</td>
+            </tr>
+            </div>
+        </table>
+    </div>
+</div>
+
+<br>
+
+<div>
+    <button class="btn btn-info" id="reset">Reset Game</button>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="tac.js"></script>
+
+</body>
+</html>
