@@ -1,4 +1,10 @@
 
+
+/* Made multiple and various types of attempts to achieve functionality for JavaScript to 
+recognize one of the arrays below as a winning hand but did not achieve success with any 
+of the attempts */
+
+
 let currentTurn = 'X';
 
 let winningHands = new Map([
